@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# JobFlowPro - A Job Tracking Web App
+JobFlowPro represents a web-based tool designed for monitoring job pursuits, empowering individuals to effortlessly manage and document their advancements in the job search process.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Users can input and organize job applications, monitor the progress of each submission, and stay informed about any updates to the application status through the app.
 
-- Configure the top-level `parserOptions` property like this:
+Through JobFlowPro, job seekers can promptly and effortlessly access a comprehensive overview of their applied positions, including the current application stage and acceptance or rejection status. This streamlines the process, eliminating the necessity to sift through emails or maintain a separate spreadsheet, resulting in a more organized and less overwhelming job search experience.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The application boasts an intuitive and easily navigable interface, characterized by its clean and user-friendly design.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+For those actively seeking employment, JobFlowPro stands as an indispensable tool. Take charge of your job search now by giving it a try!
+
+The app's user interface is constructed with ReactJS, employing the Redux Toolkit for effective state management, and TailwindCSS for styling. Axios is utilized for fetching data seamlessly.
+
+NodeJS and ExpressJS form the backbone of the backend, managing the infrastructure of the app. Additionally, Cloudinary takes care of the handling of media uploads.
+
+
+## Features
+
